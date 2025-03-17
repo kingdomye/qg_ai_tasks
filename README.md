@@ -16,4 +16,4 @@ W表示周数，T1、T2分别表示大组小组作业
 
 欢迎访问ricckker的github主页[ricckker的GitHub主页](https://github.com/kingdomye)
 
-<img src="./img/1742213630861.jpg" alt="1742213630861" style="zoom:80%;" />
+<img src="./img/0.jpg" alt="1742213630861" style="zoom:80%;" />
