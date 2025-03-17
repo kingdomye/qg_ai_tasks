@@ -15,3 +15,5 @@ W表示周数，T1、T2分别表示大组小组作业
 个人学习笔记同步知乎主页[ricckker的知乎主页](https://www.zhihu.com/people/c-59-82-42)
 
 欢迎访问ricckker的github主页[ricckker的GitHub主页](https://github.com/kingdomye)
+
+<img src="/Users/chenyingrui/Desktop/Code Learn/qg_ai/QG_AI_TASK/qg_ai_tasks/img/1742213630861.jpg" alt="1742213630861" style="zoom:80%;" />
