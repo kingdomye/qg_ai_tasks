@@ -1,10 +1,12 @@
 # 欢迎来到ricckker的QG_AI任务仓库🥳！
 
-**跳转至代码：[CODE](https://github.com/kingdomye/qg_ai_tasks/tree/main/code)👈🏻😘**
+**跳转至代码：😘👉[CODE](https://github.com/kingdomye/qg_ai_tasks/tree/main/code)👈🏻😘**
 
-**跳转至笔记：[NOTE](https://github.com/kingdomye/qg_ai_tasks/tree/main/note)👈🏻😘**
+**跳转至笔记：😘👉[NOTE](https://github.com/kingdomye/qg_ai_tasks/tree/main/note)👈🏻😘**
 
 【注】本仓库结构参考寒假训练营结构，分为代码code及笔记（周记）note部分
+
+W表示周数，T1、T2分别表示大组小组作业
 
 ------
 
