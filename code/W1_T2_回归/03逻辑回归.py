@@ -65,16 +65,34 @@ class LogisticRegression:
             ])
             loss_history.append(loss)
 
-            if (epoch + 1) % 10 == 0:
-                print('epoch: {}, loss: {}, w: {}'.format(epoch+1, loss, self.w))
+            if (epoch + 1) % 50 == 0:
+                print('epoch: {}, loss: {}'.format(epoch+1, loss))
 
         return loss_history
+
+    def evaluate(self):
+        """模型评估"""
+        accuracy = 0
+        _, _, test_X, test_y = self.divide_data()
+        for i in range(test_X.shape[0]):
+            result = sigmoid(np.dot(self.w.T, test_X[i]))
+            result = 0 if result < 0.5 else 1
+
+            if result == test_y[i]:
+                accuracy += 1
+
+        accuracy /= test_X.shape[0]
+        return accuracy
 
 
 if __name__ == '__main__':
     lr = LogisticRegression()
     lr.read_data()
     lr_loss = lr.train(epochs=1000, learning_rate=0.1)
+
+    # 根据准确率对模型进行评估
+    acc = lr.evaluate()
+    print("Accuracy: {}%".format(acc * 100))
 
     # 绘制损失函数
     plt.title("MSE LINE")
