@@ -95,6 +95,6 @@ if __name__ == '__main__':
     print("Accuracy: {}%".format(acc * 100))
 
     # 绘制损失函数
-    plt.title("MSE LINE")
+    plt.title("LOSS LINE")
     plt.plot(lr_loss)
     plt.show()
