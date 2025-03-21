@@ -1,5 +1,7 @@
 # sklearn线性回归代码剖析
 
+Written by ricckker 2025/3/21 Guangdong·Guangzhou
+
 Let's take a look at the introduction to linear regression in the code:
 
 ```python
