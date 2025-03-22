@@ -1,10 +1,12 @@
 # 欢迎来到ricckker的QG_AI任务仓库🥳！
 
-**跳转至代码：😘👉[CODE](https://github.com/kingdomye/qg_ai_tasks/tree/main/code)👈🏻😘**
+**【快速导航】**
 
-**跳转至笔记：😘👉[NOTE](https://github.com/kingdomye/qg_ai_tasks/tree/main/note)👈🏻😘**
+**😘👉[大组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)👈🏻😘**
 
-**㊙️🈲：😈👉[私货](https://github.com/kingdomye/qg_ai_tasks/tree/main/私货)👈🏻😈**
+**😘👉[小组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)👈🏻😘**
+
+**㊙️🈲：😈👉[私货](https://github.com/kingdomye/qg_ai_tasks/tree/main/03私货)👈🏻😈**
 
 ------
 
