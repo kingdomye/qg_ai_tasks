@@ -2,9 +2,9 @@
 
 **【快速导航】**
 
-**😘👉[大组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)👈🏻😘**
+**😘👉[小组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)👈🏻😘**
 
-**😘👉[小组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)👈🏻😘**
+**😘👉[大组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)👈🏻😘**
 
 ------
 
