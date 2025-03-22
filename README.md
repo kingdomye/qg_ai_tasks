@@ -6,9 +6,9 @@
 
 **😘👉[小组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)👈🏻😘**
 
-**㊙️🈲：😈👉[私货](https://github.com/kingdomye/qg_ai_tasks/tree/main/03私货)👈🏻😈**
-
 ------
+
+**㊙️🈲：😈👉[私货](https://github.com/kingdomye/qg_ai_tasks/tree/main/03私货)👈🏻😈**
 
 个人学习笔记同步知乎主页[ricckker的知乎主页](https://www.zhihu.com/people/c-59-82-42)
 
