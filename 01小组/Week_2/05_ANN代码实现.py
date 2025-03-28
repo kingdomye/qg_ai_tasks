@@ -79,12 +79,14 @@ class ANN:
     def train(self, inputs, expected, learning_rate, epochs):
         loss_history = []
         for epoch in range(epochs):
+            loss = 0
             for i in range(len(inputs)):
                 self.forward(inputs[i])
                 self.backward(expected[i], learning_rate)
-
-                loss = np.mean(np.square(expected[i] - self.layers[-1].output))
-                loss_history.append(loss)
+                loss += np.mean((expected[i] - self.layers[-1].output) ** 2)
+            
+            loss /= len(inputs)
+            loss_history.append(loss)
             
             if (epoch + 1) % 100 == 0:
                 print(f'Epoch {epoch + 1}/{epochs}, Loss: {loss}')
