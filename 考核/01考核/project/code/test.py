@@ -2,6 +2,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 load_arr = np.load('./data/B/init_positions.npy')
+print(load_arr.shape)
+
 x = load_arr[:, 0]
 y = load_arr[:, 1]
 
