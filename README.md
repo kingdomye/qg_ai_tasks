@@ -1,5 +1,7 @@
 # 欢迎来到ricckker的QG_AI任务仓库🥳！
 
+最近在做关于中期考核的任务，第三周任务暂缓；
+
 **【快速导航】**
 
 **😘👉[小组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)👈🏻😘**
