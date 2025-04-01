@@ -1,113 +1,109 @@
+import sys
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.sparse.csgraph import connected_components
 
-# 固定随机种子
-np.random.seed(42)
+# 固定随机种子以确保可重复性
+# np.random.seed(42)
 
-# 生成邻接矩阵A
-n = 200
+n = 200  # 代理数量
+p = 0.1  # 边生成概率
+threshold = 1e-2  # 收敛阈值
+max_iterations = 1000  # 最大迭代次数
+num_simulations = 100  # 每个s值的模拟次数
+delta = 1  # 差分隐私参数
+epsilon = 0.1  # 隐私预算
+alpha = 1e-6  # 噪声衰减参数
+
+# 生成I矩阵，单位矩阵
 A = np.zeros((n, n))
+
+# 设置边权重为两个伯努利试验的和
 for i in range(n):
     for j in range(i+1, n):
-        b1 = np.random.binomial(1, 0.1)
-        b2 = np.random.binomial(1, 0.1)
-        A[i, j] = b1 + b2
-        A[j, i] = A[i, j]  # 对称矩阵
+        w = np.random.binomial(1, 0.1) + np.random.binomial(1, 0.1)
+        A[i, j] = w
+        A[j, i] = w
 
-# 检查图的连通性
-n_components, _ = connected_components(A, directed=False)
-assert n_components == 1, "生成的图不连通，请调整随机种子或参数"
+D = np.diag(A.sum(axis=1))  # 度数矩阵
+L = D - A  # 拉普拉斯矩阵
+d_max = D.max().item()  # 最大度数
+h = 0.99 / d_max  # 步长满足稳定性条件
+# h = np.random.uniform(0.01, 0.99)
+# h /= d_max
 
-# 计算拉普拉斯矩阵和步长
-D = np.diag(np.sum(A, axis=1))
-L = D - A
-d_max = np.max(np.sum(A, axis=1))
-h = 0.9 / d_max  # 步长设置
+# 初始化代理状态（固定种子）
+theta0 = np.random.normal(50, 10, n)
 
-# 生成初始状态
-np.random.seed(1200003)
-theta0 = np.random.normal(loc=50, scale=10, size=n)
-true_average = np.mean(theta0)
-
-# 参数设置
-delta = 1.0
-epsilon = 0.1
-num_simulations = 100  # 模拟次数
-max_steps = 1000         # 最大迭代步数
-tolerance = 1e-2         # 收敛阈值
-
-# 生成s值（对数刻度）
-s_values = np.exp(np.linspace(np.log(0.8), np.log(1.2), 100))
-# s_values = np.exp(np.linspace(0.8, 1.2, 20))
-
-# 存储结果
-std_devs = []
-settling_times = []
-
-for s in s_values:
-    # 计算噪声参数
-    alpha = 1e-6
+def simulate_s(s):
+    # np.random.seed()  # 进程独立随机种子
     q = alpha + (1 - alpha) * abs(s - 1)
-    denominator = q - abs(s - 1)
-    c = (delta * q) / (epsilon * denominator)
+    c = delta * q / (epsilon * (q - abs(s - 1)))
     S = s * np.eye(n)
-    
-    theta_infty_samples = []
-    sim_settling_times = []
-    
-    # 并行优化建议：此处可改用多进程加速
-    s_index = s_values.tolist().index(s)
-    for sim in range(num_simulations):
-        if (sim+1) % 100 == 0:
-            print(f"Processing s={s_index}/{len(s_values)}, simulation {sim+1}/{num_simulations}...")
-        np.random.seed(sim)  # 每次模拟独立种子
+    B = S - h * L
+    A_matrix = np.eye(n) - h * L  # 状态转移矩阵
+
+    theta_infinites = []
+    convergence_times = []
+
+    for _ in range(num_simulations):
+        if (_+1) % 10 == 0:
+            print(f"Simulation {_+1:03d}/{num_simulations} (s={s:.3f})".ljust(40), 
+              end='\r', 
+              flush=True)
         theta = theta0.copy()
         converged = False
-        
-        for k in range(max_steps):
-            # 生成拉普拉斯噪声
-            b = c * (q ** k)
-            eta = np.random.laplace(loc=0, scale=b, size=n)
-            
-            # 向量化状态更新
-            x = theta + eta
-            theta_next = theta - h * L @ x + S @ eta
-            
-            # 计算收敛条件
-            error = np.linalg.norm(theta_next - np.mean(theta_next))
-            if error < tolerance:
-                sim_settling_times.append(k+1)
+        for k in range(max_iterations):
+            b = c * q ** k
+            eta = np.random.laplace(scale=b, size=n)
+            next_theta = A_matrix @ theta + B @ eta
+            thres_hold = max(threshold, b*0.1)
+            if np.linalg.norm(next_theta - theta) < thres_hold:
                 converged = True
                 break
-            theta = theta_next
-        
-        if not converged:
-            sim_settling_times.append(max_steps)
-        
-        # 记录最终平均值
-        theta_infty_samples.append(np.mean(theta))
+            theta = next_theta.copy()
+        convergence_times.append(k if converged else max_iterations)
+        theta_avg = np.mean(theta)
+        theta_infinites.append(theta_avg)
     
-    # 计算统计量
-    std_devs.append(np.std(theta_infty_samples))
-    settling_times.append(np.mean(sim_settling_times))
+    print()
 
-# 绘图
-plt.figure(figsize=(12, 5))
+    variance = np.std(theta_infinites)
+    avg_time = np.mean(convergence_times)
+    return variance, avg_time
 
-# 图3(a): 经验标准差
-plt.subplot(121)
-plt.semilogx(s_values, std_devs, 'bo-', markersize=5)
+s_values = np.logspace(np.log10(0.8), np.log10(1.2), num=50)
+# s_values = np.linspace(np.log10(0.8), np.log10(1.2), num=100)
+# s_values = np.linspace(0.8, 1.2, num=100)
+
+# 单核计算
+variances = []
+times = []
+for s in s_values:
+    variance, avg_time = simulate_s(s)
+    variances.append(variance)
+    times.append(avg_time)
+variances = np.sqrt(variances)
+
+# 画在一张图中
+plt.figure(figsize=(10, 6))
+plt.subplot(2, 1, 1)
+plt.semilogx(s_values, variances, 'o-', markersize=5)
 plt.xlabel('s (log scale)')
 plt.ylabel('Empirical Standard Deviation')
-plt.title('Fig 3(a): Standard Deviation vs. s')
+# y轴范围是0-1.5*10e6，0.5为间隔设置y轴
+plt.xlim(0.8, 1.2)
+plt.xticks(np.arange(0.8, 1.2, 0.05))
+plt.title('Accuracy vs. Design Parameter s')
+plt.grid(True)
 
-# 图3(b): 收敛时间
-plt.subplot(122)
-plt.semilogx(s_values, settling_times, 'ro-', markersize=5)
+plt.subplot(2, 1, 2)
+plt.semilogx(s_values, times, 'o-', markersize=5)
 plt.xlabel('s (log scale)')
-plt.ylabel('Settling Time (steps)')
-plt.title('Fig 3(b): Settling Time vs. s')
-
+plt.ylabel('Convergence Time (iterations)')
+plt.xlim(0.8, 1.2)
+plt.xticks(np.arange(0.8, 1.2, 0.05))
+plt.title('Convergence Speed vs. Design Parameter s')
+plt.grid(True)
 plt.tight_layout()
+
 plt.show()
