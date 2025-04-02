@@ -1,4 +1,3 @@
-import sys
 import numpy as np
 import matplotlib.pyplot as plt
 from joblib import Parallel, delayed
@@ -36,6 +35,7 @@ def run_single_simulation(A_matrix, B, theta0, c, q, threshold, max_iterations):
         b = c * q_power
         eta = np.random.laplace(scale=b, size=n)
         next_theta = A_matrix @ theta + B @ eta
+
         thres_hold = max(threshold, b * 0.1)
         if np.max(np.abs(next_theta - theta)) < thres_hold:
             converged = True
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     # 绘图
     plt.figure(figsize=(10, 6))
     plt.subplot(2, 1, 1)
-    plt.semilogx(s_values, variances, 'o-', markersize=5)
+    plt.plot(s_values, variances, 'o-', markersize=5)
     plt.xlabel('s (log scale)'); plt.ylabel('Standard Deviation')
     plt.xlim(0.8, 1.2); plt.grid(True)
     plt.xticks(np.arange(0.8, 1.2, 0.05))
