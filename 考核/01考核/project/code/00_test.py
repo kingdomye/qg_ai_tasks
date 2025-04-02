@@ -1,33 +1,33 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-# 加载数据
-load_arr = np.load('./data/B/init_positions.npy')
-x = load_arr[:, 0]
-y = load_arr[:, 1]
+# 读取npy文件
+try:
+    data = np.load('data/B/init_positions.npy')
+except FileNotFoundError:
+    print("文件不存在")
 
-# 抽取50个点
-random_indices = np.random.choice(len(x), 100, replace=False)
-x = x[random_indices]
-y = y[random_indices]
+# params
+n = data.shape[0]       # 智能体数量
+p = 0.1                 # 伯努利分布概率
+threshold = 1e-2        # 收敛条件
+max_iterations = 1000   # 最大迭代次数
+num_simulations = 100   # 模拟次数
+delta = 0.1             # delta参数
+epsilon = 0.1           # epsilon参数
+alpha = 1e-6            # alpha参数
 
-# 创建一个新的图形
-plt.figure()
+# 构建邻接矩阵
+A = np.zeros((n, n))
+for i in range(n):
+    for j in range(i+1, n):
+        if (np.random.binomial(1, p) + np.random.binomial(1, p)):
+            A[i, j] = 1
+            A[j, i] = 1s
 
-# 绘制每个点
-plt.scatter(x, y, color='red', label='Points')
+D = np.diag(A.sum(axis=1))              # 节点度矩阵
+L = D - A                               # 邻接矩阵的拉普拉斯矩阵
+d_max = D.max().item()                  # 节点度最大值
+h = 0.99 / d_max                        # h参数
+theta0 = np.random.normal(50, 10, n)    # 初始状态
 
-# 将每个点与其他所有点用线连接
-for i in range(len(x)):
-    for j in range(i + 1, len(x)):
-        plt.plot([x[i], x[j]], [y[i], y[j]], color='blue', linestyle='-', linewidth=0.02, alpha=0.5)
-
-# 添加标签和标题
-plt.xlabel('X Coordinate')
-plt.ylabel('Y Coordinate')
-plt.title('Fully Connected Points Plot')
-plt.legend()
-plt.grid(True)
-
-# 显示图形
-plt.show()

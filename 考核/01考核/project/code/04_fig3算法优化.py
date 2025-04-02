@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 from joblib import Parallel, delayed
 
 # 固定参数
-n = 200
+n = 50
 p = 0.1
 threshold = 1e-2
 max_iterations = 1000
-num_simulations = 10000
+num_simulations = 100
 delta = 1
 epsilon = 0.1
 alpha = 1e-6
@@ -39,10 +39,12 @@ def run_single_simulation(A_matrix, B, theta0, c, q, threshold, max_iterations):
         thres_hold = max(threshold, b * 0.1)
         if np.max(np.abs(next_theta - theta)) < thres_hold:
             converged = True
+            theta = next_theta
             break
         theta = next_theta  # 避免复制
         q_power *= q  # 累积乘法
-    return (k if converged else max_iterations, np.mean(theta))
+    theta_avg = np.mean(theta)
+    return (k if converged else max_iterations, theta_avg)
 
 # 参数s的模拟
 def simulate_s(s):
@@ -56,8 +58,15 @@ def simulate_s(s):
         delayed(run_single_simulation)(A_matrix, B, theta0, c, q, threshold, max_iterations)
         for _ in range(num_simulations)
     )
-    convergence_times, theta_avgs = zip(*results)
-    return np.std(theta_avgs), np.mean(convergence_times)
+    
+    convergence_times = [res[0] for res in results]
+    theta_avgs = [res[1] for res in results]
+    
+    # 计算方差和平均收敛时间
+    variance = np.var(theta_avgs)
+    avg_convergence_time = np.mean(convergence_times)
+    
+    return variance, avg_convergence_time
 
 # 主程序
 if __name__ == '__main__':
@@ -69,7 +78,7 @@ if __name__ == '__main__':
         var, avg = simulate_s(s)
         variances.append(var)
         times.append(avg)
-    variances = np.sqrt(np.array(variances))
+    variances = np.sqrt(variances)
 
     # 绘图
     plt.figure(figsize=(10, 6))
