@@ -1,4 +1,6 @@
 import numpy as np
 
-lap = np.random.laplace(0, 10, 200)
-print(lap)
+a = np.array([1, 2, 3])
+b = np.array([2, 10, 88])
+
+print(np.max(b))

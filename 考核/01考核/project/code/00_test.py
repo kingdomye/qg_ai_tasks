@@ -14,10 +14,12 @@ n = data.shape[0]                       # 智能体数量
 p = 0.1                                 # 伯努利分布概率
 threshold = 1e-2                        # 收敛条件
 max_iterations = 1000                   # 最大迭代次数
-num_simulations = 1000                   # 模拟次数
+num_simulations = 1000                  # 模拟次数
 delta = 0.1                             # delta参数
 epsilon = 0.1                           # epsilon参数
 alpha = 1e-6                            # alpha参数
+epsilon_matrix = epsilon * np.ones(n)   # epsilon矩阵形式
+alpha_matrix = alpha * np.ones(n)       # alpha矩阵形式
 
 # 构建邻接矩阵
 A = np.zeros((n, n))
@@ -48,9 +50,10 @@ def simulation_single(theta0, c, A, B, q):
             break
         theta = next_theta
         q_powered *= q
-    # J = (2 * delta ** 2 / n ** 2) * np.sum(theta ** 2)
-    J = (2 / n**2) * np.sum((s**2 * c**2) / (1 - q**2))
-    # convergence_time = np.max(np.mean(np.square(theta - np.mean(theta0))) / np.mean(np.square(theta0 - np.mean(theta0)))) ** (1 / (2 * k))
+
+    # J = np.mean(np.square(theta - np.mean(theta0)))
+    J = theta
+
     return (k if convergence else max_iterations), J
 
 def simulate_s(s):
@@ -58,24 +61,26 @@ def simulate_s(s):
     c = (delta * q) / (epsilon * (q - abs(s - 1)))
     A = np.eye(n) - h * L
     B = s * np.eye(n) - h * L
-    
+
     results = Parallel(n_jobs=-1, verbose=0)(
         delayed(simulation_single)(theta0, c, A, B, q)
         for _ in range(num_simulations)
     )
 
     convergece_times = [res[0] for res in results]
-    Js = [res[1] for res in results]
+    Js = [np.max(res[1]) for res in results]
 
-    return np.mean(convergece_times), Js
+    return np.mean(convergece_times), np.var(Js)
 
 if __name__ == '__main__':
-    s_values = np.logspace(0.8, 1.2, 50)
+    # simulate_s(1.01)
+    s_values = np.logspace(np.log10(0.8), np.log10(1.2), 50)
     times, vs = [], []
 
     for s in tqdm(s_values):
         t, var = simulate_s(s)
         times.append(t); vs.append(var)
+    print(vs)
 
     plt.figure(figsize=(10, 6))
     plt.subplot(2, 1, 1)
