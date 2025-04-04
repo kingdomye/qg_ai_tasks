@@ -11,6 +11,13 @@ def phi(alpha, s):
         return np.nan  # 返回 NaN 或其他特殊值
     return a / b
 
+def phi2(alpha, s):
+    a = (alpha + (1 - alpha) * abs(s - 1)) * s
+    b = alpha * (1 - abs(s - 1))
+    if b == 0:
+        return np.nan  # 返回 NaN 或其他特殊值
+    return a / b
+
 # 绘制phi图像
 alpha_arr = np.linspace(0.01, 0.99, 1000)
 s_arr = np.linspace(0.01, 1.99, 1000)

@@ -3,6 +3,8 @@ from matplotlib import pyplot as plt
 from joblib import Parallel, delayed
 from tqdm import tqdm
 
+np.random.seed(616)
+
 # 读取npy文件
 try:
     data = np.load('data/B/init_positions.npy')
@@ -34,6 +36,14 @@ L = D - A                               # 邻接矩阵的拉普拉斯矩阵
 d_max = D.max().item()                  # 节点度最大值
 h = 0.99 / d_max                        # h参数
 theta0 = np.random.normal(50, 10, n)    # 初始状态
+
+def phi(alpha, s):
+    a = s ** 2 * (alpha + (1 - alpha) * abs(s - 1)) ** 2
+    b = (alpha ** 2 * (1 - abs(s - 1)) ** 2) * (1 - (alpha + (1 - alpha) * abs(s - 1)) ** 2)
+    
+    if b == 0:
+        return np.nan
+    return a / b
 
 def simulation_single(theta0, c, A, B, q):
     theta = theta0.copy()
@@ -69,18 +79,19 @@ def simulate_s(s):
 
     convergece_times = [res[0] for res in results]
     Js = [np.max(res[1]) for res in results]
+    # J = (2 / n) * (delta ** 2 / epsilon ** 2) * phi(alpha, s)
+    J = (2 / n) * ((s ** 2 * c **2) / (1 - q ** 2))
 
-    return np.mean(convergece_times), np.var(Js)
+    return np.mean(convergece_times), J
 
 if __name__ == '__main__':
-    # simulate_s(1.01)
     s_values = np.logspace(np.log10(0.8), np.log10(1.2), 50)
+    # s_values = np.linspace(0.8, 1.2, 50)
     times, vs = [], []
 
     for s in tqdm(s_values):
         t, var = simulate_s(s)
         times.append(t); vs.append(var)
-    print(vs)
 
     plt.figure(figsize=(10, 6))
     plt.subplot(2, 1, 1)
