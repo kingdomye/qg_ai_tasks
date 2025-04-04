@@ -61,10 +61,7 @@ def simulation_single(theta0, c, A, B, q):
         theta = next_theta
         q_powered *= q
 
-    # J = np.mean(np.square(theta - np.mean(theta0)))
-    J = theta
-
-    return (k if convergence else max_iterations), J
+    return (k if convergence else max_iterations), theta
 
 def simulate_s(s):
     q = alpha + (1 - alpha) * abs(s - 1)
