@@ -8,7 +8,7 @@
 
 **😘👉[大组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)👈🏻😘**
 
-想看考核任务进度可以点这里[考核](https://github.com/kingdomye/qg_ai_tasks/tree/main/考核/01考核)
+想看考核任务进度可以点这里[考核](https://github.com/kingdomye/qg_ai_tasks/tree/main/中期考核)
 
 ------
 
