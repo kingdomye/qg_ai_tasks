@@ -2,9 +2,11 @@
 
 **【快速导航】**
 
-**😘👉[小组第三周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_3)👈🏻😘**
+**😘👉[小组第三周——resnet和LSTM实现](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_3)👈🏻😘**
 
-**😘👉[大组第三周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_3)👈🏻😘**
+**😘👉[大组第三周——排序算法](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_3)👈🏻😘**
+
+**😘👉[大组第四周——树](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_4)👈🏻😘**
 
 【历史作业】成就感满满的目录🥰
 
@@ -12,7 +14,7 @@
 
 [大组第一周——链表](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_1)
 
-[小组第二周——图论、差分隐私和多智能系统](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)
+[小组第二周——图论、差分隐私、多智能系统和手搓ANN](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)
 
 [大组第二周——栈和队列](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)
 
