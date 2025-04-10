@@ -16,7 +16,7 @@
 
 [大组第一周——链表](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_1)
 
-[小组第二周——图论、差分隐私、多智能系统和手搓ANN](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)
+[小组第二周——Kmeans聚类、图论、差分隐私、多智能系统和手搓ANN](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)
 
 [大组第二周——栈和队列](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)
 
