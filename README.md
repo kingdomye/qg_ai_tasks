@@ -6,17 +6,17 @@
 
 **😘👉[大组第三周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_3)👈🏻😘**
 
-【历史作业】
+【历史作业】成就感满满的目录🥰
 
-[小组第一周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_1)
+[小组第一周——线性回归和逻辑回归](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_1)
 
-[大组第一周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_1)
+[大组第一周——链表](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_1)
 
-[小组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)
+[小组第二周——图论、差分隐私和多智能系统](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)
 
-[大组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)
+[大组第二周——栈和队列](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)
 
-[中期考核](https://github.com/kingdomye/qg_ai_tasks/tree/main/中期考核)
+[中期考核——多智能体平均共识问题探索](https://github.com/kingdomye/qg_ai_tasks/tree/main/中期考核)
 
 ------
 
