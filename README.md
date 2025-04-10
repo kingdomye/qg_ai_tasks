@@ -1,5 +1,7 @@
 # 欢迎来到ricckker的QG_AI任务仓库🥳！
 
+这两天趁闲暇之余整理了一下ricckker同学的仓库，内容没有更改，更加方便大家查看！
+
 **【快速导航】**
 
 **😘👉[小组第三周——resnet和LSTM实现](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_3)👈🏻😘**
