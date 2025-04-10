@@ -6,11 +6,7 @@
 
 **😘👉[大组第三周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_3)👈🏻😘**
 
-想看考核任务进度可以点这里[考核](https://github.com/kingdomye/qg_ai_tasks/tree/main/中期考核)
-
 ------
-
-**㊙️🈲：😈👉[私货](https://github.com/kingdomye/qg_ai_tasks/tree/main/03私货)👈🏻😈**
 
 个人学习笔记同步知乎主页[ricckker的知乎主页](https://www.zhihu.com/people/c-59-82-42)
 
