@@ -6,6 +6,18 @@
 
 **😘👉[大组第三周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_3)👈🏻😘**
 
+【历史作业】
+
+[小组第一周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_1)
+
+[大组第一周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_1)
+
+[小组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/01小组/Week_2)
+
+[大组第二周](https://github.com/kingdomye/qg_ai_tasks/tree/main/02大组/Week_2)
+
+[中期考核](https://github.com/kingdomye/qg_ai_tasks/tree/main/中期考核)
+
 ------
 
 个人学习笔记同步知乎主页[ricckker的知乎主页](https://www.zhihu.com/people/c-59-82-42)
