@@ -57,4 +57,4 @@ class WeatherData:
         train_X, train_y = create_dataset(train, lookback)
         test_X, test_y = create_dataset(test, lookback)
 
-        return train_X, train_y, test_X, test_y
+        return train_X, train_y, test_X, test_y, self.test_df
