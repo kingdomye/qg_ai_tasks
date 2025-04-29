@@ -1,0 +1,3252 @@
+[
+    {
+        "car_num": 1,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 10,
+                    "coords": [
+                        26.875,
+                        29.947
+                    ],
+                    "relative_time": 5.2393554731191525,
+                    "travel_time": 5.2393554731191525,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 15.118482020180624,
+                    "travel_time": 9.879126547061471,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 27.462545796944482,
+                    "travel_time": 12.34406377676386,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 45.41101319973643,
+                    "travel_time": 17.948467402791948,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 62.633661608207646,
+                    "travel_time": 17.22264840847122,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 76.79341046575051,
+                    "travel_time": 14.159748857542862,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 107.64372688067517,
+                    "travel_time": 30.850316414924663,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 109.67859517341223,
+                    "travel_time": 2.03486829273706,
+                    "timestamp": 1740210788.11803
+                }
+            ],
+            [
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 1.2094763434192102,
+                    "travel_time": 1.2094763434192102,
+                    "timestamp": 1740210788.283875
+                },
+                {
+                    "node_name": 17,
+                    "coords": [
+                        31.419,
+                        1.829
+                    ],
+                    "relative_time": 11.205766078921677,
+                    "travel_time": 9.996289735502467,
+                    "timestamp": 1740210788.283875
+                },
+                {
+                    "node_name": 17,
+                    "coords": [
+                        31.419,
+                        1.829
+                    ],
+                    "relative_time": 14.852978406311522,
+                    "travel_time": 3.647212327389845,
+                    "timestamp": 1740210788.283875
+                }
+            ],
+            [
+                {
+                    "node_name": 18,
+                    "coords": [
+                        33.583,
+                        21.658
+                    ],
+                    "relative_time": 6.854604470871565,
+                    "travel_time": 6.854604470871565,
+                    "timestamp": 1740210788.4396188
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 13.564279014994213,
+                    "travel_time": 6.709674544122648,
+                    "timestamp": 1740210788.4396188
+                },
+                {
+                    "node_name": 23,
+                    "coords": [
+                        36.652,
+                        17.446
+                    ],
+                    "relative_time": 21.841340431783564,
+                    "travel_time": 8.27706141678935,
+                    "timestamp": 1740210788.4396188
+                },
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 28.51853527457179,
+                    "travel_time": 6.677194842788226,
+                    "timestamp": 1740210788.4396188
+                },
+                {
+                    "node_name": 26,
+                    "coords": [
+                        41.742,
+                        12.462
+                    ],
+                    "relative_time": 36.64852691451071,
+                    "travel_time": 8.129991639938918,
+                    "timestamp": 1740210788.4408133
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 46.5510683754584,
+                    "travel_time": 9.902541460947692,
+                    "timestamp": 1740210788.4408133
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 49.18075160625481,
+                    "travel_time": 2.6296832307964078,
+                    "timestamp": 1740210788.4408133
+                }
+            ],
+            [
+                {
+                    "node_name": 29,
+                    "coords": [
+                        43.24,
+                        23.265
+                    ],
+                    "relative_time": 13.123774417648361,
+                    "travel_time": 13.123774417648361,
+                    "timestamp": 1740210788.6253989
+                },
+                {
+                    "node_name": 27,
+                    "coords": [
+                        41.75,
+                        26.426
+                    ],
+                    "relative_time": 20.27810985307628,
+                    "travel_time": 7.154335435427919,
+                    "timestamp": 1740210788.6253989
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 34.849614961075694,
+                    "travel_time": 14.571505107999412,
+                    "timestamp": 1740210788.6253989
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 41.574984523031745,
+                    "travel_time": 6.725369561956049,
+                    "timestamp": 1740210788.6253989
+                }
+            ],
+            [
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 3.588798185245083,
+                    "travel_time": 3.588798185245083,
+                    "timestamp": 1740210788.8097024
+                },
+                {
+                    "node_name": 23,
+                    "coords": [
+                        36.652,
+                        17.446
+                    ],
+                    "relative_time": 10.373282000282767,
+                    "travel_time": 6.784483815037683,
+                    "timestamp": 1740210788.8097024
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 18.73180313964629,
+                    "travel_time": 8.358521139363523,
+                    "timestamp": 1740210788.8097024
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 28.75479375071282,
+                    "travel_time": 10.022990611066533,
+                    "timestamp": 1740210788.8097024
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 46.52084051727376,
+                    "travel_time": 17.76604676656094,
+                    "timestamp": 1740210788.8106978
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 59.024904294037626,
+                    "travel_time": 12.50406377676386,
+                    "timestamp": 1740210788.8106978
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 77.05337169682957,
+                    "travel_time": 18.02846740279195,
+                    "timestamp": 1740210788.8106978
+                },
+                {
+                    "node_name": 30,
+                    "coords": [
+                        44.69,
+                        41.801
+                    ],
+                    "relative_time": 94.64652001571747,
+                    "travel_time": 17.59314831888789,
+                    "timestamp": 1740210788.8106978
+                },
+                {
+                    "node_name": 30,
+                    "coords": [
+                        44.69,
+                        41.801
+                    ],
+                    "relative_time": 120.11687911627908,
+                    "travel_time": 25.470359100561613,
+                    "timestamp": 1740210788.8106978
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 2,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 5.7480544794647574,
+                    "travel_time": 5.7480544794647574,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 16.39242908905988,
+                    "travel_time": 10.644374609595124,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 25.8286472650016,
+                    "travel_time": 9.43621817594172,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 45.31503694209347,
+                    "travel_time": 19.486389677091875,
+                    "timestamp": 1740210788.11803
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 76.2437066865361,
+                    "travel_time": 30.928669744442633,
+                    "timestamp": 1740210788.1192343
+                },
+                {
+                    "node_name": 33,
+                    "coords": [
+                        46.382,
+                        20.174
+                    ],
+                    "relative_time": 89.46132131225428,
+                    "travel_time": 13.217614625718182,
+                    "timestamp": 1740210788.1192343
+                },
+                {
+                    "node_name": 33,
+                    "coords": [
+                        46.382,
+                        20.174
+                    ],
+                    "relative_time": 90.04229196341917,
+                    "travel_time": 0.5809706511648955,
+                    "timestamp": 1740210788.1192343
+                }
+            ],
+            [
+                {
+                    "node_name": 3,
+                    "coords": [
+                        16.63,
+                        16.585
+                    ],
+                    "relative_time": 1.6968567454285466,
+                    "travel_time": 1.6968567454285466,
+                    "timestamp": 1740210788.4085932
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 13.16086667696788,
+                    "travel_time": 11.464009931539334,
+                    "timestamp": 1740210788.4085932
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 31.016087688896995,
+                    "travel_time": 17.855221011929117,
+                    "timestamp": 1740210788.4085932
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 41.78046229849212,
+                    "travel_time": 10.764374609595123,
+                    "timestamp": 1740210788.4085932
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 51.33668047443384,
+                    "travel_time": 9.556218175941721,
+                    "timestamp": 1740210788.4085932
+                },
+                {
+                    "node_name": 22,
+                    "coords": [
+                        36.083,
+                        11.953
+                    ],
+                    "relative_time": 58.607612073605594,
+                    "travel_time": 7.270931599171753,
+                    "timestamp": 1740210788.4085932
+                },
+                {
+                    "node_name": 22,
+                    "coords": [
+                        36.083,
+                        11.953
+                    ],
+                    "relative_time": 61.89244217079271,
+                    "travel_time": 3.2848300971871183,
+                    "timestamp": 1740210788.4095895
+                }
+            ],
+            [
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 6.655305107429233,
+                    "travel_time": 6.655305107429233,
+                    "timestamp": 1740210788.5193233
+                },
+                {
+                    "node_name": 18,
+                    "coords": [
+                        33.583,
+                        21.658
+                    ],
+                    "relative_time": 13.31623095672825,
+                    "travel_time": 6.660925849299017,
+                    "timestamp": 1740210788.5193233
+                },
+                {
+                    "node_name": 18,
+                    "coords": [
+                        33.583,
+                        21.658
+                    ],
+                    "relative_time": 16.149100716138644,
+                    "travel_time": 2.832869759410394,
+                    "timestamp": 1740210788.5193233
+                }
+            ],
+            [
+                {
+                    "node_name": 12,
+                    "coords": [
+                        29.679,
+                        9.215
+                    ],
+                    "relative_time": 19.996694894780184,
+                    "travel_time": 19.996694894780184,
+                    "timestamp": 1740210788.8258991
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 26.17727355021747,
+                    "travel_time": 6.180578655437289,
+                    "timestamp": 1740210788.8258991
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 35.77349172615919,
+                    "travel_time": 9.59621817594172,
+                    "timestamp": 1740210788.8258991
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 55.41988140325107,
+                    "travel_time": 19.646389677091875,
+                    "timestamp": 1740210788.8258991
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 86.4485511476937,
+                    "travel_time": 31.02866974444263,
+                    "timestamp": 1740210788.8258991
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 93.62536620613022,
+                    "travel_time": 7.176815058436513,
+                    "timestamp": 1740210788.8258991
+                }
+            ],
+            [
+                {
+                    "node_name": 12,
+                    "coords": [
+                        29.679,
+                        9.215
+                    ],
+                    "relative_time": 10.074653014845955,
+                    "travel_time": 10.074653014845955,
+                    "timestamp": 1740210789.044162
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 16.275231670283244,
+                    "travel_time": 6.200578655437289,
+                    "timestamp": 1740210789.044162
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 25.911449846224965,
+                    "travel_time": 9.636218175941721,
+                    "timestamp": 1740210789.044162
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 45.597839523316836,
+                    "travel_time": 19.686389677091874,
+                    "timestamp": 1740210789.044162
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 50.16657906748149,
+                    "travel_time": 4.568739544164654,
+                    "timestamp": 1740210789.044162
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 3,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 5.581453553980072,
+                    "travel_time": 5.581453553980072,
+                    "timestamp": 1740210788.1192343
+                },
+                {
+                    "node_name": 26,
+                    "coords": [
+                        41.742,
+                        12.462
+                    ],
+                    "relative_time": 13.691445193918991,
+                    "travel_time": 8.109991639938919,
+                    "timestamp": 1740210788.1192343
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 23.49398665486668,
+                    "travel_time": 9.802541460947692,
+                    "timestamp": 1740210788.1192343
+                },
+                {
+                    "node_name": 32,
+                    "coords": [
+                        46.372,
+                        7.202
+                    ],
+                    "relative_time": 28.113944619272992,
+                    "travel_time": 4.619957964406311,
+                    "timestamp": 1740210788.1192343
+                },
+                {
+                    "node_name": 35,
+                    "coords": [
+                        50.462,
+                        2.68
+                    ],
+                    "relative_time": 40.43083468259958,
+                    "travel_time": 12.316890063326593,
+                    "timestamp": 1740210788.1192343
+                },
+                {
+                    "node_name": 35,
+                    "coords": [
+                        50.462,
+                        2.68
+                    ],
+                    "relative_time": 68.27406088305085,
+                    "travel_time": 27.84322620045127,
+                    "timestamp": 1740210788.1192343
+                }
+            ],
+            [
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 10.005949948291386,
+                    "travel_time": 10.005949948291386,
+                    "timestamp": 1740210788.3825212
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 27.268598356762602,
+                    "travel_time": 17.262648408471218,
+                    "timestamp": 1740210788.3825212
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 41.508347214305466,
+                    "travel_time": 14.239748857542862,
+                    "timestamp": 1740210788.3825212
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 72.45866362923013,
+                    "travel_time": 30.950316414924664,
+                    "timestamp": 1740210788.3825212
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 91.9647363536285,
+                    "travel_time": 19.50607272439837,
+                    "timestamp": 1740210788.3825212
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 101.58200617796757,
+                    "travel_time": 9.617269824339074,
+                    "timestamp": 1740210788.3825212
+                },
+                {
+                    "node_name": 12,
+                    "coords": [
+                        29.679,
+                        9.215
+                    ],
+                    "relative_time": 107.42155539729703,
+                    "travel_time": 5.83954921932946,
+                    "timestamp": 1740210788.3825212
+                },
+                {
+                    "node_name": 12,
+                    "coords": [
+                        29.679,
+                        9.215
+                    ],
+                    "relative_time": 108.2053852930852,
+                    "travel_time": 0.7838298957881683,
+                    "timestamp": 1740210788.3836803
+                }
+            ],
+            [
+                {
+                    "node_name": 16,
+                    "coords": [
+                        31.324,
+                        24.22
+                    ],
+                    "relative_time": 2.681020708107706,
+                    "travel_time": 2.681020708107706,
+                    "timestamp": 1740210788.5626805
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 8.05003218405361,
+                    "travel_time": 5.369011475945904,
+                    "timestamp": 1740210788.5626805
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 25.738457182442232,
+                    "travel_time": 17.688424998388623,
+                    "timestamp": 1740210788.5626805
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 36.91752384441787,
+                    "travel_time": 11.179066661975641,
+                    "timestamp": 1740210788.5626805
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 40.1166400518362,
+                    "travel_time": 3.1991162074183315,
+                    "timestamp": 1740210788.5626805
+                }
+            ],
+            [
+                {
+                    "node_name": 3,
+                    "coords": [
+                        16.63,
+                        16.585
+                    ],
+                    "relative_time": 4.089762043125311,
+                    "travel_time": 4.089762043125311,
+                    "timestamp": 1740210788.8409164
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 15.613771974664644,
+                    "travel_time": 11.524009931539334,
+                    "timestamp": 1740210788.8409164
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 20.6737902848191,
+                    "travel_time": 5.0600183101544545,
+                    "timestamp": 1740210788.8409164
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 31.971580951058684,
+                    "travel_time": 11.297790666239584,
+                    "timestamp": 1740210788.842328
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 49.75762771761963,
+                    "travel_time": 17.78604676656094,
+                    "timestamp": 1740210788.842328
+                },
+                {
+                    "node_name": 10,
+                    "coords": [
+                        26.875,
+                        29.947
+                    ],
+                    "relative_time": 59.55530796465479,
+                    "travel_time": 9.797680247035156,
+                    "timestamp": 1740210788.842328
+                },
+                {
+                    "node_name": 10,
+                    "coords": [
+                        26.875,
+                        29.947
+                    ],
+                    "relative_time": 64.74588597311522,
+                    "travel_time": 5.190578008460437,
+                    "timestamp": 1740210788.842328
+                }
+            ],
+            [
+                {
+                    "node_name": 12,
+                    "coords": [
+                        29.679,
+                        9.215
+                    ],
+                    "relative_time": 1.065571708513348,
+                    "travel_time": 1.065571708513348,
+                    "timestamp": 1740210789.058776
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 7.286150363950637,
+                    "travel_time": 6.220578655437289,
+                    "timestamp": 1740210789.058776
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 18.007761771555035,
+                    "travel_time": 10.721611407604398,
+                    "timestamp": 1740210789.058776
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 35.96520352099673,
+                    "travel_time": 17.957441749441696,
+                    "timestamp": 1740210789.0597696
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 41.04522183115119,
+                    "travel_time": 5.080018310154455,
+                    "timestamp": 1740210789.0597696
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 52.40301249739077,
+                    "travel_time": 11.357790666239582,
+                    "timestamp": 1740210789.0597696
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 70.28905926395171,
+                    "travel_time": 17.88604676656094,
+                    "timestamp": 1740210789.0607662
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 82.87312304071557,
+                    "travel_time": 12.58406377676386,
+                    "timestamp": 1740210789.0607662
+                },
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 93.9331911079397,
+                    "travel_time": 11.06006806722414,
+                    "timestamp": 1740210789.0607662
+                },
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 98.86464357279509,
+                    "travel_time": 4.931452464855379,
+                    "timestamp": 1740210789.0607662
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 4,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 3.087525148131444,
+                    "travel_time": 3.087525148131444,
+                    "timestamp": 1740210788.120405
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 7.987543458285899,
+                    "travel_time": 4.900018310154454,
+                    "timestamp": 1740210788.120405
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 19.025334124525482,
+                    "travel_time": 11.037790666239584,
+                    "timestamp": 1740210788.120405
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 28.669825475272663,
+                    "travel_time": 9.644491350747181,
+                    "timestamp": 1740210788.120405
+                },
+                {
+                    "node_name": 23,
+                    "coords": [
+                        36.652,
+                        17.446
+                    ],
+                    "relative_time": 36.90688689206201,
+                    "travel_time": 8.237061416789349,
+                    "timestamp": 1740210788.120405
+                },
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 43.58408173485024,
+                    "travel_time": 6.677194842788226,
+                    "timestamp": 1740210788.120405
+                },
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 48.975589203004944,
+                    "travel_time": 5.391507468154704,
+                    "timestamp": 1740210788.1214652
+                }
+            ],
+            [
+                {
+                    "node_name": 32,
+                    "coords": [
+                        46.372,
+                        7.202
+                    ],
+                    "relative_time": 7.572331465907426,
+                    "travel_time": 7.572331465907426,
+                    "timestamp": 1740210788.3785253
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 12.457449146801538,
+                    "travel_time": 4.885117680894113,
+                    "timestamp": 1740210788.3785253
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 43.42611889124417,
+                    "travel_time": 30.968669744442632,
+                    "timestamp": 1740210788.3785253
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 57.5653404668615,
+                    "travel_time": 14.139221575617325,
+                    "timestamp": 1740210788.3799853
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 74.8483406138139,
+                    "travel_time": 17.283000146952407,
+                    "timestamp": 1740210788.3799853
+                },
+                {
+                    "node_name": 30,
+                    "coords": [
+                        44.69,
+                        41.801
+                    ],
+                    "relative_time": 92.44148893270179,
+                    "travel_time": 17.59314831888789,
+                    "timestamp": 1740210788.3799853
+                },
+                {
+                    "node_name": 30,
+                    "coords": [
+                        44.69,
+                        41.801
+                    ],
+                    "relative_time": 108.36531555800244,
+                    "travel_time": 15.92382662530065,
+                    "timestamp": 1740210788.3799853
+                }
+            ],
+            [
+                {
+                    "node_name": 4,
+                    "coords": [
+                        18.976,
+                        23.521
+                    ],
+                    "relative_time": 13.456910847066684,
+                    "travel_time": 13.456910847066684,
+                    "timestamp": 1740210788.6854012
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 33.355562042271245,
+                    "travel_time": 19.89865119520456,
+                    "timestamp": 1740210788.6854012
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 34.33844278104071,
+                    "travel_time": 0.9828807387694685,
+                    "timestamp": 1740210788.6854012
+                }
+            ],
+            [
+                {
+                    "node_name": 14,
+                    "coords": [
+                        30.762,
+                        33.713
+                    ],
+                    "relative_time": 5.594996398472004,
+                    "travel_time": 5.594996398472004,
+                    "timestamp": 1740210788.934191
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 15.868034448765723,
+                    "travel_time": 10.273038050293719,
+                    "timestamp": 1740210788.934191
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 33.91650185155767,
+                    "travel_time": 18.04846740279195,
+                    "timestamp": 1740210788.934191
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 51.21915026002889,
+                    "travel_time": 17.30264840847122,
+                    "timestamp": 1740210788.9351885
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 65.49889911757175,
+                    "travel_time": 14.279748857542863,
+                    "timestamp": 1740210788.9351885
+                },
+                {
+                    "node_name": 38,
+                    "coords": [
+                        63.761,
+                        20.602
+                    ],
+                    "relative_time": 88.33560775140887,
+                    "travel_time": 22.836708633837112,
+                    "timestamp": 1740210788.9351885
+                },
+                {
+                    "node_name": 38,
+                    "coords": [
+                        63.761,
+                        20.602
+                    ],
+                    "relative_time": 105.20609005477773,
+                    "travel_time": 16.870482303368863,
+                    "timestamp": 1740210788.9351885
+                }
+            ],
+            [
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 2.7384115238918394,
+                    "travel_time": 2.7384115238918394,
+                    "timestamp": 1740210789.1661842
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 14.196275351930792,
+                    "travel_time": 11.457863828038953,
+                    "timestamp": 1740210789.1661842
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 26.86140836140391,
+                    "travel_time": 12.66513300947312,
+                    "timestamp": 1740210789.1676319
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 44.729833359792536,
+                    "travel_time": 17.868424998388623,
+                    "timestamp": 1740210789.1676319
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 54.51432471053972,
+                    "travel_time": 9.784491350747182,
+                    "timestamp": 1740210789.1676319
+                },
+                {
+                    "node_name": 23,
+                    "coords": [
+                        36.652,
+                        17.446
+                    ],
+                    "relative_time": 62.87138612732907,
+                    "travel_time": 8.35706141678935,
+                    "timestamp": 1740210789.1687446
+                },
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 69.55576869730223,
+                    "travel_time": 6.684382569973158,
+                    "timestamp": 1740210789.1687446
+                },
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 72.70445098702852,
+                    "travel_time": 3.1486822897263003,
+                    "timestamp": 1740210789.1687446
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 5,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 8,
+                    "coords": [
+                        25.792,
+                        3.427
+                    ],
+                    "relative_time": 7.281565200326915,
+                    "travel_time": 7.281565200326915,
+                    "timestamp": 1740210788.1225839
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 12.945903997084333,
+                    "travel_time": 5.664338796757419,
+                    "timestamp": 1740210788.1225839
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 30.74334574652603,
+                    "travel_time": 17.797441749441695,
+                    "timestamp": 1740210788.1235802
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 35.663364056680486,
+                    "travel_time": 4.920018310154455,
+                    "timestamp": 1740210788.1235802
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 46.72115472292007,
+                    "travel_time": 11.057790666239583,
+                    "timestamp": 1740210788.1235802
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 56.38564607366725,
+                    "travel_time": 9.664491350747182,
+                    "timestamp": 1740210788.1235802
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 58.145198881302896,
+                    "travel_time": 1.7595528076356441,
+                    "timestamp": 1740210788.1235802
+                }
+            ],
+            [
+                {
+                    "node_name": 22,
+                    "coords": [
+                        36.083,
+                        11.953
+                    ],
+                    "relative_time": 7.048955588592524,
+                    "travel_time": 7.048955588592524,
+                    "timestamp": 1740210788.3327646
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 14.504729951558572,
+                    "travel_time": 7.455774362966047,
+                    "timestamp": 1740210788.3327646
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 24.101999775897646,
+                    "travel_time": 9.597269824339074,
+                    "timestamp": 1740210788.3327646
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 34.723611183502044,
+                    "travel_time": 10.621611407604398,
+                    "timestamp": 1740210788.3327646
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 52.56105293294374,
+                    "travel_time": 17.837441749441695,
+                    "timestamp": 1740210788.3327646
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 57.541071243098195,
+                    "travel_time": 4.980018310154454,
+                    "timestamp": 1740210788.3338163
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 68.69886190933778,
+                    "travel_time": 11.157790666239583,
+                    "timestamp": 1740210788.3338163
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 86.36490867589872,
+                    "travel_time": 17.66604676656094,
+                    "timestamp": 1740210788.3338163
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 98.80897245266257,
+                    "travel_time": 12.44406377676386,
+                    "timestamp": 1740210788.3338163
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 100.5130588189911,
+                    "travel_time": 1.704086366328519,
+                    "timestamp": 1740210788.3338163
+                }
+            ],
+            [
+                {
+                    "node_name": 1,
+                    "coords": [
+                        11.539,
+                        11.418
+                    ],
+                    "relative_time": 1.046835490891968,
+                    "travel_time": 1.046835490891968,
+                    "timestamp": 1740210788.5037382
+                },
+                {
+                    "node_name": 3,
+                    "coords": [
+                        16.63,
+                        16.585
+                    ],
+                    "relative_time": 15.654236360792822,
+                    "travel_time": 14.607400869900854,
+                    "timestamp": 1740210788.5037382
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 27.138246292332155,
+                    "travel_time": 11.484009931539333,
+                    "timestamp": 1740210788.5037382
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 45.01346730426127,
+                    "travel_time": 17.875221011929117,
+                    "timestamp": 1740210788.5037382
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 55.81784191385639,
+                    "travel_time": 10.804374609595124,
+                    "timestamp": 1740210788.5037382
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 60.19750205137862,
+                    "travel_time": 4.3796601375222295,
+                    "timestamp": 1740210788.5037382
+                }
+            ],
+            [
+                {
+                    "node_name": 10,
+                    "coords": [
+                        26.875,
+                        29.947
+                    ],
+                    "relative_time": 4.981736655226793,
+                    "travel_time": 4.981736655226793,
+                    "timestamp": 1740210788.76271
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 15.040863202288264,
+                    "travel_time": 10.05912654706147,
+                    "timestamp": 1740210788.76271
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 27.524926979052125,
+                    "travel_time": 12.48406377676386,
+                    "timestamp": 1740210788.764007
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 45.533394381844076,
+                    "travel_time": 18.008467402791947,
+                    "timestamp": 1740210788.764007
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 62.816042790315294,
+                    "travel_time": 17.282648408471218,
+                    "timestamp": 1740210788.764007
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 77.07579164785815,
+                    "travel_time": 14.259748857542863,
+                    "timestamp": 1740210788.764007
+                },
+                {
+                    "node_name": 33,
+                    "coords": [
+                        46.382,
+                        20.174
+                    ],
+                    "relative_time": 90.29340627357634,
+                    "travel_time": 13.217614625718182,
+                    "timestamp": 1740210788.765002
+                },
+                {
+                    "node_name": 33,
+                    "coords": [
+                        46.382,
+                        20.174
+                    ],
+                    "relative_time": 95.65179689838587,
+                    "travel_time": 5.358390624809531,
+                    "timestamp": 1740210788.765002
+                }
+            ],
+            [
+                {
+                    "node_name": 26,
+                    "coords": [
+                        41.742,
+                        12.462
+                    ],
+                    "relative_time": 1.4673763244892084,
+                    "travel_time": 1.4673763244892084,
+                    "timestamp": 1740210788.887506
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 11.429917785436901,
+                    "travel_time": 9.962541460947692,
+                    "timestamp": 1740210788.887506
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 31.01599050983527,
+                    "travel_time": 19.586072724398367,
+                    "timestamp": 1740210788.8885074
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 40.733260334174346,
+                    "travel_time": 9.717269824339073,
+                    "timestamp": 1740210788.8885074
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 43.354008179499424,
+                    "travel_time": 2.6207478453250777,
+                    "timestamp": 1740210788.8885074
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 6,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 7,
+                    "coords": [
+                        25.252,
+                        12.456
+                    ],
+                    "relative_time": 0.6043572582725831,
+                    "travel_time": 0.6043572582725831,
+                    "timestamp": 1740210788.1247232
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 6.947391296971509,
+                    "travel_time": 6.343034038698926,
+                    "timestamp": 1740210788.1247232
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 18.025181963211093,
+                    "travel_time": 11.077790666239583,
+                    "timestamp": 1740210788.1247232
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 35.61122872977204,
+                    "travel_time": 17.58604676656094,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 47.975292506535894,
+                    "travel_time": 12.36406377676386,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 65.94375990932784,
+                    "travel_time": 17.968467402791948,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 83.18640831779905,
+                    "travel_time": 17.24264840847122,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 86.89971668816268,
+                    "travel_time": 3.713308370363639,
+                    "timestamp": 1740210788.1257372
+                }
+            ],
+            [
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 15.269627784595206,
+                    "travel_time": 15.269627784595206,
+                    "timestamp": 1740210788.252472
+                },
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 26.329695851819345,
+                    "travel_time": 11.06006806722414,
+                    "timestamp": 1740210788.252472
+                },
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 31.30169789263073,
+                    "travel_time": 4.972002040811386,
+                    "timestamp": 1740210788.252472
+                }
+            ],
+            [
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 1.3396766019425095,
+                    "travel_time": 1.3396766019425095,
+                    "timestamp": 1740210788.5172145
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 12.657540429981461,
+                    "travel_time": 11.317863828038952,
+                    "timestamp": 1740210788.5172145
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 25.12267343945458,
+                    "travel_time": 12.46513300947312,
+                    "timestamp": 1740210788.5172145
+                },
+                {
+                    "node_name": 10,
+                    "coords": [
+                        26.875,
+                        29.947
+                    ],
+                    "relative_time": 34.90035368648974,
+                    "travel_time": 9.777680247035157,
+                    "timestamp": 1740210788.5183191
+                },
+                {
+                    "node_name": 4,
+                    "coords": [
+                        18.976,
+                        23.521
+                    ],
+                    "relative_time": 55.4481749120544,
+                    "travel_time": 20.54782122556466,
+                    "timestamp": 1740210788.5183191
+                },
+                {
+                    "node_name": 4,
+                    "coords": [
+                        18.976,
+                        23.521
+                    ],
+                    "relative_time": 57.65213349171745,
+                    "travel_time": 2.2039585796630483,
+                    "timestamp": 1740210788.5183191
+                }
+            ],
+            [
+                {
+                    "node_name": 8,
+                    "coords": [
+                        25.792,
+                        3.427
+                    ],
+                    "relative_time": 4.881153278535139,
+                    "travel_time": 4.881153278535139,
+                    "timestamp": 1740210788.777979
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 10.665492075292558,
+                    "travel_time": 5.784338796757419,
+                    "timestamp": 1740210788.777979
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 21.48986668488768,
+                    "travel_time": 10.824374609595123,
+                    "timestamp": 1740210788.777979
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 26.407580542863617,
+                    "travel_time": 4.917713857975936,
+                    "timestamp": 1740210788.777979
+                }
+            ],
+            [
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 7.5068186245051125,
+                    "travel_time": 7.5068186245051125,
+                    "timestamp": 1740210789.057409
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 17.589809235571643,
+                    "travel_time": 10.082990611066531,
+                    "timestamp": 1740210789.057409
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 35.45585600213258,
+                    "travel_time": 17.866046766560938,
+                    "timestamp": 1740210789.057409
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 48.03991977889644,
+                    "travel_time": 12.58406377676386,
+                    "timestamp": 1740210789.057409
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 49.12221153495902,
+                    "travel_time": 1.0822917560625809,
+                    "timestamp": 1740210789.057409
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 7,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 26,
+                    "coords": [
+                        41.742,
+                        12.462
+                    ],
+                    "relative_time": 8.288214155655814,
+                    "travel_time": 8.288214155655814,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 18.110755616603505,
+                    "travel_time": 9.822541460947692,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 37.53682834100187,
+                    "travel_time": 19.426072724398367,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 47.07409816534094,
+                    "travel_time": 9.537269824339074,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 12,
+                    "coords": [
+                        29.679,
+                        9.215
+                    ],
+                    "relative_time": 52.913647384670405,
+                    "travel_time": 5.83954921932946,
+                    "timestamp": 1740210788.1257372
+                },
+                {
+                    "node_name": 12,
+                    "coords": [
+                        29.679,
+                        9.215
+                    ],
+                    "relative_time": 54.946677860345694,
+                    "travel_time": 2.03303047567529,
+                    "timestamp": 1740210788.1257372
+                }
+            ],
+            [
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 2.383904249755015,
+                    "travel_time": 2.383904249755015,
+                    "timestamp": 1740210788.3303292
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 13.521694915994598,
+                    "travel_time": 11.137790666239583,
+                    "timestamp": 1740210788.3303292
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 31.167741682555537,
+                    "travel_time": 17.64604676656094,
+                    "timestamp": 1740210788.3303292
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 43.591805459319396,
+                    "travel_time": 12.42406377676386,
+                    "timestamp": 1740210788.3317592
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 61.58027286211134,
+                    "travel_time": 17.988467402791947,
+                    "timestamp": 1740210788.3317592
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 64.60616542207654,
+                    "travel_time": 3.025892559965207,
+                    "timestamp": 1740210788.3317592
+                }
+            ],
+            [
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 6.740253350247567,
+                    "travel_time": 6.740253350247567,
+                    "timestamp": 1740210788.5929446
+                },
+                {
+                    "node_name": 26,
+                    "coords": [
+                        41.742,
+                        12.462
+                    ],
+                    "relative_time": 14.910244990186486,
+                    "travel_time": 8.16999163993892,
+                    "timestamp": 1740210788.5929446
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 24.832786451134176,
+                    "travel_time": 9.922541460947691,
+                    "timestamp": 1740210788.5929446
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 55.84145619557681,
+                    "travel_time": 31.00866974444263,
+                    "timestamp": 1740210788.5929446
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 63.57055627794186,
+                    "travel_time": 7.72910008236505,
+                    "timestamp": 1740210788.5929446
+                }
+            ],
+            [
+                {
+                    "node_name": 18,
+                    "coords": [
+                        33.583,
+                        21.658
+                    ],
+                    "relative_time": 6.09764776671319,
+                    "travel_time": 6.09764776671319,
+                    "timestamp": 1740210788.7168033
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 12.867322310835839,
+                    "travel_time": 6.769674544122648,
+                    "timestamp": 1740210788.7168033
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 22.870312921902368,
+                    "travel_time": 10.002990611066531,
+                    "timestamp": 1740210788.7168033
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 34.06937958387801,
+                    "travel_time": 11.19906666197564,
+                    "timestamp": 1740210788.7168033
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 39.04622589086693,
+                    "travel_time": 4.976846306988915,
+                    "timestamp": 1740210788.7168033
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 56.941446902796045,
+                    "travel_time": 17.895221011929117,
+                    "timestamp": 1740210788.7168033
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 67.74582151239117,
+                    "travel_time": 10.804374609595124,
+                    "timestamp": 1740210788.7168033
+                },
+                {
+                    "node_name": 17,
+                    "coords": [
+                        31.419,
+                        1.829
+                    ],
+                    "relative_time": 77.74211124789365,
+                    "travel_time": 9.996289735502467,
+                    "timestamp": 1740210788.71774
+                },
+                {
+                    "node_name": 17,
+                    "coords": [
+                        31.419,
+                        1.829
+                    ],
+                    "relative_time": 80.93660055814208,
+                    "travel_time": 3.194489310248427,
+                    "timestamp": 1740210788.71774
+                }
+            ],
+            [
+                {
+                    "node_name": 16,
+                    "coords": [
+                        31.324,
+                        24.22
+                    ],
+                    "relative_time": 2.228508784298387,
+                    "travel_time": 2.228508784298387,
+                    "timestamp": 1740210789.0108962
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 7.697520260244292,
+                    "travel_time": 5.469011475945905,
+                    "timestamp": 1740210789.0108962
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 20.241584037008153,
+                    "travel_time": 12.54406377676386,
+                    "timestamp": 1740210789.0108962
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 38.310051439800105,
+                    "travel_time": 18.06846740279195,
+                    "timestamp": 1740210789.0123465
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 55.63269984827133,
+                    "travel_time": 17.32264840847122,
+                    "timestamp": 1740210789.0123465
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 69.9324487058142,
+                    "travel_time": 14.299748857542863,
+                    "timestamp": 1740210789.0123465
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 71.33196897712018,
+                    "travel_time": 1.399520271305983,
+                    "timestamp": 1740210789.0123465
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 8,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 14,
+                    "coords": [
+                        30.762,
+                        33.713
+                    ],
+                    "relative_time": 8.95286362306456,
+                    "travel_time": 8.95286362306456,
+                    "timestamp": 1740210788.127113
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 19.08590167335828,
+                    "travel_time": 10.133038050293719,
+                    "timestamp": 1740210788.127113
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 31.4510346828314,
+                    "travel_time": 12.365133009473121,
+                    "timestamp": 1740210788.127113
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 49.03945968122002,
+                    "travel_time": 17.58842499838862,
+                    "timestamp": 1740210788.127113
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 60.15852634319566,
+                    "travel_time": 11.11906666197564,
+                    "timestamp": 1740210788.128125
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 65.03537265018457,
+                    "travel_time": 4.876846306988915,
+                    "timestamp": 1740210788.128125
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 82.85059366211368,
+                    "travel_time": 17.81522101192912,
+                    "timestamp": 1740210788.128125
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 93.5349682717088,
+                    "travel_time": 10.684374609595123,
+                    "timestamp": 1740210788.128125
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 103.01118644765053,
+                    "travel_time": 9.476218175941721,
+                    "timestamp": 1740210788.128125
+                },
+                {
+                    "node_name": 22,
+                    "coords": [
+                        36.083,
+                        11.953
+                    ],
+                    "relative_time": 110.28211804682229,
+                    "travel_time": 7.270931599171753,
+                    "timestamp": 1740210788.128125
+                },
+                {
+                    "node_name": 22,
+                    "coords": [
+                        36.083,
+                        11.953
+                    ],
+                    "relative_time": 112.57880177111626,
+                    "travel_time": 2.2966837242939735,
+                    "timestamp": 1740210788.128125
+                }
+            ],
+            [
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 0.7200613190977116,
+                    "travel_time": 0.7200613190977116,
+                    "timestamp": 1740210788.3932705
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 5.720079629252167,
+                    "travel_time": 5.000018310154455,
+                    "timestamp": 1740210788.3932705
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 16.89787029549175,
+                    "travel_time": 11.177790666239583,
+                    "timestamp": 1740210788.3932705
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 34.58391706205269,
+                    "travel_time": 17.68604676656094,
+                    "timestamp": 1740210788.3943884
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 47.02798083881655,
+                    "travel_time": 12.44406377676386,
+                    "timestamp": 1740210788.3943884
+                },
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 58.0880489060407,
+                    "travel_time": 11.06006806722414,
+                    "timestamp": 1740210788.3943884
+                },
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 62.389404844470334,
+                    "travel_time": 4.30135593842964,
+                    "timestamp": 1740210788.3943884
+                }
+            ],
+            [
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 6.947225188593983,
+                    "travel_time": 6.947225188593983,
+                    "timestamp": 1740210788.6854012
+                },
+                {
+                    "node_name": 23,
+                    "coords": [
+                        36.652,
+                        17.446
+                    ],
+                    "relative_time": 13.711709003631666,
+                    "travel_time": 6.764483815037684,
+                    "timestamp": 1740210788.6854012
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 22.030230142995187,
+                    "travel_time": 8.318521139363522,
+                    "timestamp": 1740210788.6854012
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 32.01322075406172,
+                    "travel_time": 9.982990611066532,
+                    "timestamp": 1740210788.6854012
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 49.75926752062266,
+                    "travel_time": 17.74604676656094,
+                    "timestamp": 1740210788.6854012
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 51.88163029120053,
+                    "travel_time": 2.1223627705778694,
+                    "timestamp": 1740210788.6854012
+                }
+            ],
+            [
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 10.950611611434935,
+                    "travel_time": 10.950611611434935,
+                    "timestamp": 1740210788.8270319
+                },
+                {
+                    "node_name": 36,
+                    "coords": [
+                        53.689,
+                        32.232
+                    ],
+                    "relative_time": 25.56326352428425,
+                    "travel_time": 14.612651912849314,
+                    "timestamp": 1740210788.8270319
+                },
+                {
+                    "node_name": 36,
+                    "coords": [
+                        53.689,
+                        32.232
+                    ],
+                    "relative_time": 37.973096591694386,
+                    "travel_time": 12.40983306741014,
+                    "timestamp": 1740210788.8270319
+                }
+            ],
+            [
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 30.185243251330498,
+                    "travel_time": 30.185243251330498,
+                    "timestamp": 1740210789.0278218
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 61.23391299577313,
+                    "travel_time": 31.048669744442634,
+                    "timestamp": 1740210789.0278218
+                },
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 75.47313457139046,
+                    "travel_time": 14.239221575617327,
+                    "timestamp": 1740210789.0278218
+                },
+                {
+                    "node_name": 29,
+                    "coords": [
+                        43.24,
+                        23.265
+                    ],
+                    "relative_time": 88.78557055350936,
+                    "travel_time": 13.312435982118902,
+                    "timestamp": 1740210789.0278218
+                },
+                {
+                    "node_name": 29,
+                    "coords": [
+                        43.24,
+                        23.265
+                    ],
+                    "relative_time": 89.74315495642672,
+                    "travel_time": 0.9575844029173605,
+                    "timestamp": 1740210789.0278218
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 9,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 29,
+                    "coords": [
+                        43.24,
+                        23.265
+                    ],
+                    "relative_time": 8.273194627804273,
+                    "travel_time": 8.273194627804273,
+                    "timestamp": 1740210788.1294656
+                },
+                {
+                    "node_name": 27,
+                    "coords": [
+                        41.75,
+                        26.426
+                    ],
+                    "relative_time": 15.40753006323219,
+                    "travel_time": 7.134335435427919,
+                    "timestamp": 1740210788.1294656
+                },
+                {
+                    "node_name": 24,
+                    "coords": [
+                        37.674,
+                        26.024
+                    ],
+                    "relative_time": 23.745086538571996,
+                    "travel_time": 8.337556475339808,
+                    "timestamp": 1740210788.1294656
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 35.002950366610946,
+                    "travel_time": 11.257863828038952,
+                    "timestamp": 1740210788.1294656
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 47.38808337608407,
+                    "travel_time": 12.38513300947312,
+                    "timestamp": 1740210788.1294656
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 64.99650837447268,
+                    "travel_time": 17.60842499838862,
+                    "timestamp": 1740210788.1294656
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 76.13557503644833,
+                    "travel_time": 11.13906666197564,
+                    "timestamp": 1740210788.1294656
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 79.06409586596396,
+                    "travel_time": 2.9285208295156275,
+                    "timestamp": 1740210788.1294656
+                }
+            ],
+            [
+                {
+                    "node_name": 18,
+                    "coords": [
+                        33.583,
+                        21.658
+                    ],
+                    "relative_time": 3.514826632257499,
+                    "travel_time": 3.514826632257499,
+                    "timestamp": 1740210788.3146262
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 10.204501176380147,
+                    "travel_time": 6.6896745441226475,
+                    "timestamp": 1740210788.3146262
+                },
+                {
+                    "node_name": 23,
+                    "coords": [
+                        36.652,
+                        17.446
+                    ],
+                    "relative_time": 18.461562593169496,
+                    "travel_time": 8.25706141678935,
+                    "timestamp": 1740210788.3146262
+                },
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 25.13875743595772,
+                    "travel_time": 6.677194842788226,
+                    "timestamp": 1740210788.3160694
+                },
+                {
+                    "node_name": 22,
+                    "coords": [
+                        36.083,
+                        11.953
+                    ],
+                    "relative_time": 32.50254295041229,
+                    "travel_time": 7.3637855144545705,
+                    "timestamp": 1740210788.3160694
+                },
+                {
+                    "node_name": 22,
+                    "coords": [
+                        36.083,
+                        11.953
+                    ],
+                    "relative_time": 34.950464219987346,
+                    "travel_time": 2.4479212695750556,
+                    "timestamp": 1740210788.3160694
+                }
+            ],
+            [
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 1.2933181600833203,
+                    "travel_time": 1.2933181600833203,
+                    "timestamp": 1740210788.6239233
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 19.001743158471943,
+                    "travel_time": 17.708424998388622,
+                    "timestamp": 1740210788.6239233
+                },
+                {
+                    "node_name": 20,
+                    "coords": [
+                        32.724,
+                        18.492
+                    ],
+                    "relative_time": 28.706234509219122,
+                    "travel_time": 9.704491350747181,
+                    "timestamp": 1740210788.6239233
+                },
+                {
+                    "node_name": 23,
+                    "coords": [
+                        36.652,
+                        17.446
+                    ],
+                    "relative_time": 37.00329592600847,
+                    "travel_time": 8.297061416789349,
+                    "timestamp": 1740210788.6239233
+                },
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 43.68767849598163,
+                    "travel_time": 6.684382569973158,
+                    "timestamp": 1740210788.6253989
+                },
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 44.59270507661542,
+                    "travel_time": 0.9050265806337877,
+                    "timestamp": 1740210788.6253989
+                }
+            ],
+            [
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 7.945095245599452,
+                    "travel_time": 7.945095245599452,
+                    "timestamp": 1740210788.777979
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 12.941941552588368,
+                    "travel_time": 4.996846306988915,
+                    "timestamp": 1740210788.777979
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 20.271792947305293,
+                    "travel_time": 7.329851394716925,
+                    "timestamp": 1740210788.777979
+                }
+            ],
+            [
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 2.58159765610959,
+                    "travel_time": 2.58159765610959,
+                    "timestamp": 1740210789.041805
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 13.899388322349173,
+                    "travel_time": 11.317790666239583,
+                    "timestamp": 1740210789.041805
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 31.745435088910114,
+                    "travel_time": 17.84604676656094,
+                    "timestamp": 1740210789.0431678
+                },
+                {
+                    "node_name": 19,
+                    "coords": [
+                        34.119,
+                        30.151
+                    ],
+                    "relative_time": 44.30949886567397,
+                    "travel_time": 12.56406377676386,
+                    "timestamp": 1740210789.0431678
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 62.39796626846592,
+                    "travel_time": 18.08846740279195,
+                    "timestamp": 1740210789.0431678
+                },
+                {
+                    "node_name": 28,
+                    "coords": [
+                        42.27,
+                        33.501
+                    ],
+                    "relative_time": 69.39535591850237,
+                    "travel_time": 6.997389650036454,
+                    "timestamp": 1740210789.0431678
+                }
+            ]
+        ]
+    },
+    {
+        "car_num": 10,
+        "speed": 0.5,
+        "paths": [
+            [
+                {
+                    "node_name": 34,
+                    "coords": [
+                        48.259,
+                        27.526
+                    ],
+                    "relative_time": 8.26335020509588,
+                    "travel_time": 8.26335020509588,
+                    "timestamp": 1740210788.130665
+                },
+                {
+                    "node_name": 37,
+                    "coords": [
+                        52.601,
+                        22.153
+                    ],
+                    "relative_time": 22.463099062638744,
+                    "travel_time": 14.199748857542863,
+                    "timestamp": 1740210788.130665
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 53.37341547756341,
+                    "travel_time": 30.910316414924665,
+                    "timestamp": 1740210788.130665
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 72.83948820196179,
+                    "travel_time": 19.46607272439837,
+                    "timestamp": 1740210788.130665
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 82.41675802630085,
+                    "travel_time": 9.577269824339073,
+                    "timestamp": 1740210788.130665
+                },
+                {
+                    "node_name": 17,
+                    "coords": [
+                        31.419,
+                        1.829
+                    ],
+                    "relative_time": 92.41304776180333,
+                    "travel_time": 9.996289735502467,
+                    "timestamp": 1740210788.130665
+                },
+                {
+                    "node_name": 17,
+                    "coords": [
+                        31.419,
+                        1.829
+                    ],
+                    "relative_time": 102.70389957557985,
+                    "travel_time": 10.290851813776532,
+                    "timestamp": 1740210788.130665
+                }
+            ],
+            [
+                {
+                    "node_name": 3,
+                    "coords": [
+                        16.63,
+                        16.585
+                    ],
+                    "relative_time": 5.029183020741001,
+                    "travel_time": 5.029183020741001,
+                    "timestamp": 1740210788.3812308
+                },
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 16.473192952280336,
+                    "travel_time": 11.444009931539334,
+                    "timestamp": 1740210788.3812308
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 34.32841396420945,
+                    "travel_time": 17.855221011929117,
+                    "timestamp": 1740210788.3812308
+                },
+                {
+                    "node_name": 9,
+                    "coords": [
+                        25.911,
+                        6.145
+                    ],
+                    "relative_time": 34.70477443404872,
+                    "travel_time": 0.3763604698392669,
+                    "timestamp": 1740210788.3812308
+                }
+            ],
+            [
+                {
+                    "node_name": 25,
+                    "coords": [
+                        38.46,
+                        14.699
+                    ],
+                    "relative_time": 0.48403996859621334,
+                    "travel_time": 0.48403996859621334,
+                    "timestamp": 1740210788.5013986
+                },
+                {
+                    "node_name": 26,
+                    "coords": [
+                        41.742,
+                        12.462
+                    ],
+                    "relative_time": 8.634031608535132,
+                    "travel_time": 8.149991639938918,
+                    "timestamp": 1740210788.5013986
+                },
+                {
+                    "node_name": 31,
+                    "coords": [
+                        44.925,
+                        8.938
+                    ],
+                    "relative_time": 18.536573069482824,
+                    "travel_time": 9.902541460947692,
+                    "timestamp": 1740210788.5013986
+                },
+                {
+                    "node_name": 21,
+                    "coords": [
+                        35.337,
+                        8.446
+                    ],
+                    "relative_time": 38.08264579388119,
+                    "travel_time": 19.546072724398368,
+                    "timestamp": 1740210788.5027258
+                },
+                {
+                    "node_name": 15,
+                    "coords": [
+                        31.059,
+                        6.713
+                    ],
+                    "relative_time": 47.739915618220266,
+                    "travel_time": 9.657269824339073,
+                    "timestamp": 1740210788.5027258
+                },
+                {
+                    "node_name": 17,
+                    "coords": [
+                        31.419,
+                        1.829
+                    ],
+                    "relative_time": 57.73620535372273,
+                    "travel_time": 9.996289735502467,
+                    "timestamp": 1740210788.5027258
+                },
+                {
+                    "node_name": 17,
+                    "coords": [
+                        31.419,
+                        1.829
+                    ],
+                    "relative_time": 64.56828794547854,
+                    "travel_time": 6.83208259175581,
+                    "timestamp": 1740210788.5027258
+                }
+            ],
+            [
+                {
+                    "node_name": 5,
+                    "coords": [
+                        21.394,
+                        13.681
+                    ],
+                    "relative_time": 14.382536685355566,
+                    "travel_time": 14.382536685355566,
+                    "timestamp": 1740210788.640768
+                },
+                {
+                    "node_name": 6,
+                    "coords": [
+                        23.4,
+                        14.838
+                    ],
+                    "relative_time": 19.40255499551002,
+                    "travel_time": 5.020018310154454,
+                    "timestamp": 1740210788.640768
+                },
+                {
+                    "node_name": 7,
+                    "coords": [
+                        25.252,
+                        12.456
+                    ],
+                    "relative_time": 25.537065083329907,
+                    "travel_time": 6.134510087819888,
+                    "timestamp": 1740210788.640768
+                },
+                {
+                    "node_name": 7,
+                    "coords": [
+                        25.252,
+                        12.456
+                    ],
+                    "relative_time": 26.659321720801326,
+                    "travel_time": 1.1222566374714207,
+                    "timestamp": 1740210788.640768
+                }
+            ],
+            [
+                {
+                    "node_name": 10,
+                    "coords": [
+                        26.875,
+                        29.947
+                    ],
+                    "relative_time": 10.526147700161774,
+                    "travel_time": 10.526147700161774,
+                    "timestamp": 1740210788.8581295
+                },
+                {
+                    "node_name": 13,
+                    "coords": [
+                        29.696,
+                        26.067
+                    ],
+                    "relative_time": 20.645274247223245,
+                    "travel_time": 10.119126547061471,
+                    "timestamp": 1740210788.8581295
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 38.453699245611865,
+                    "travel_time": 17.80842499838862,
+                    "timestamp": 1740210788.8581295
+                },
+                {
+                    "node_name": 11,
+                    "coords": [
+                        28.043,
+                        17.586
+                    ],
+                    "relative_time": 47.34558529922967,
+                    "travel_time": 8.891886053617803,
+                    "timestamp": 1740210788.8581295
+                }
+            ]
+        ]
+    }
+]
